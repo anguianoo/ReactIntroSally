@@ -14,9 +14,30 @@
 h1, #introduction , #education, #works, #contact-section{
     text-align:left;
     padding: 25px;
+    
+}
+
+.container {
+    background-color: whitesmoke;
 }
 
 /* removing dots from list */
  ul {
     list-style-type: none;
 }
+
+/* end of mobile first */
+
+@media only screen and (min-width: 992px){
+    #img > img {
+        float: left;
+        vertical-align: top;
+        width: auto;
+    }
+    main{
+        display: inline-block;
+        width: auto;
+        font-size: 25px;
+    }
+}
+
